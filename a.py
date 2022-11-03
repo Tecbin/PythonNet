@@ -69,7 +69,7 @@ driver.find_element(By.XPATH, '//*[@id="edit_body"]/div[3]/div[2]/form/input[1]'
 driver.implicitly_wait(10)
 #browser.find_element_by_id('j-password').send_keys(Keys.ENTER)
 
-
+print("----------大概登录完成了---------")
 #要打包成一个文件
 
 #pyinstaller -F belle.py

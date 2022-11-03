@@ -69,6 +69,7 @@ sel = driver.find_element(By.NAME, "ISP_select")
 Select(sel).select_by_index(txt[3])  # 显示50条
 driver.find_element(By.XPATH, '//*[@id="edit_body"]/div[3]/div[2]/form/input[1]').click()
 driver.implicitly_wait(10)
+print("----------大概登录完成了---------")
 #browser.find_element_by_id('j-password').send_keys(Keys.ENTER)
 
 
