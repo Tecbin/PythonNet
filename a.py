@@ -1,16 +1,15 @@
 from selenium import webdriver
-
 from selenium.webdriver.common.by import By
 driver = webdriver.Firefox()   # Firefox浏览器
 # driver = webdriver.Firefox("驱动路径")
-
 #driver = webdriver.Chrome()    # Chrome浏览器
-
 from selenium.webdriver.support.select import Select
 from time import sleep
 import uuid
 import socket
-
+#https://github.com/Tecbin/PythonNet/
+print('https://github.com/Tecbin/PythonNet/')
+print('===================================')
 # 查看当前主机名
 print('当前主机名称为 : ' + socket.gethostname())
 # 根据主机名称获取当前IP
